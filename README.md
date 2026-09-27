@@ -107,6 +107,6 @@ Content-Type: application/json
 
 If this exceeds the station's threshold, an alert is created automatically — visible immediately via `GET /alerts`.
 
-## Design decisions & scope
+<img width="1917" height="883" alt="image" src="https://github.com/user-attachments/assets/18d1b259-b03c-489a-abf1-9f48e53f8419" />
+<img width="1910" height="717" alt="image" src="https://github.com/user-attachments/assets/c7a096e1-791c-45af-a048-00b5dbf8bc02" />
 
-This project deliberately stays within the scope of a Track 1 (0–3 years) submission: core Java, a Java web framework, SQL + basic NoSQL, tests, and a clean demo. It intentionally does **not** include message streaming, self-hosted infrastructure orchestration, or a workflow/automation engine — those are relevant to more senior tracks, and adding them here would trade clarity and correctness for unnecessary complexity.
